@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/InspirationDef[defName = "Inspired_Creativity"]/associatedSkills</xpath>
+		<value>
+	       	<li>Crafting</li>
+			<li>Construction</li>
+		</value>
+</Operation>
+
+</Patch>

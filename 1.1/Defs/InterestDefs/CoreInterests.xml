@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DInterests.InterestDef>
+    <defName>DNoPassion</defName>
+    <label>no passion</label>
+	<learnFactor>0.35</learnFactor>
+	<inspirationFactor>1.0</inspirationFactor>
+	<priority>-100000</priority>
+	<value>0</value>
+	<weight>100</weight>
+	<weightLevelExponent>1.0</weightLevelExponent>
+	<weightLevelFactor>1</weightLevelFactor>
+	<weightLevelOffset>-11.0</weightLevelOffset>
+  </DInterests.InterestDef>
+  
+  <DInterests.InterestDef Class="DInterests.MinorPassionDef">
+    <defName>DMinorPassion</defName>
+    <label>minor passion</label>
+	<texPath>UI/Icons/PassionMinor</texPath>
+	<learnFactor>1.0</learnFactor>
+	<inspirationFactor>2.5</inspirationFactor>
+	<priority>100</priority>
+	<value>100</value>
+	<weight>0</weight>
+	<weightLevelExponent>1.0</weightLevelExponent>
+	<weightLevelFactor>1.0</weightLevelFactor>
+	<weightLevelOffset>8.8</weightLevelOffset>
+  </DInterests.InterestDef>
+  
+  <DInterests.InterestDef>
+    <defName>DMajorPassion</defName>
+    <label>major passion</label>
+	<texPath>UI/Icons/PassionMajor</texPath>
+	<learnFactor>1.5</learnFactor>
+	<inspirationFactor>5.0</inspirationFactor>
+	<priority>150</priority>
+	<value>150</value>
+	<weight>0</weight>
+	<weightLevelExponent>1.0</weightLevelExponent>
+	<weightLevelFactor>1.0</weightLevelFactor>
+	<weightLevelOffset>2.2</weightLevelOffset>
+  </DInterests.InterestDef>
+  
+</Defs>
